@@ -9,13 +9,13 @@ First the user must type an expression before the other options can be used.
 The 'print' command is more for debugging but we found it quite useful so we kept this.
 In this, the states are displayed side by side. This is not sorted by state number, 
 because then it is sometimes difficult to find the first state (e.g. in a * operation) and the states are in order of the count.
-Eg exp 'ab':
+Eg exp 'ab':  
 
-1 2 3 4 <------ state number   
-------------     
-a - b - <------ which letter it can accept
-2 3 4 0 <------ state it points to
-0 0 0 0 <------ other state it points to
+1 2 3 4 <------ state number     
+------------       
+a - b - <------ which letter it can accept  
+2 3 4 0 <------ state it points to  
+0 0 0 0 <------ other state it points to  
 
 We chose this compact representation because we could quite easily reconstruct it with a tuple. 
 recreate it. It is easy for the user to see how all the states are connected without
