@@ -2,8 +2,9 @@
 3rd assignment of the course Datastructures  
 Last edit: 10 December 2022  
 
-Regex String Matcher created by Luuk Daleman and Mirza Kuraesin
+Regex String Matcher created by Luuk Daleman and Mirza Kuraesin  
 
+To run this project clone this repository and enter "make" in the terminal. You can now run the executable Regex
 Upon launching the executable, a list of options appears for the user to type into the terminal.
 First the user must type an expression before the other options can be used.
 
