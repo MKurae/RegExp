@@ -1,0 +1,34 @@
+exp c(a|bb)*c
+print
+dot c(a|bb)*c
+exp abc 
+print
+dot abc 
+exp a*
+print 
+dot a*
+exp (
+print
+dot (
+exp ()
+print
+dot ()
+exp (a)
+print
+dot (a)
+exp ())
+print
+dot ())
+exp (a))
+print
+dot (a))
+exp a|b
+print
+dot a|b
+exp ab*
+print
+dot ab*
+exp (ab)*
+print
+dot (ab)*
+end

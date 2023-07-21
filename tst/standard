@@ -1,0 +1,4 @@
+exp c(a|bb)*c
+print
+dot
+end
