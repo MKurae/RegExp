@@ -4,7 +4,7 @@ Last edit: 10 December 2022
 
 Regex String Matcher created by Luuk Daleman and Mirza Kuraesin  
 
-To run this project clone this repository and enter "make" in the terminal. You can now run the executable Regex.  
+You can download 'Regex' to run the program. 
 
 Using the test files to run multiple commands run "./Regex < tst/filename". 
 
