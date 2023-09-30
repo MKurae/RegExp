@@ -27,5 +27,5 @@ recreate it. It is easy for the user to see how all the states are connected wit
 looking at a picture of the automaton itself, although this is also an option with the command dot.
 For us, it was also an easy way to build the automaton with std::get.
 
-Below, the automaton of '(bb|aa)*c*d' is shown in an image with GraphvizOnline:
+Below, the automaton of `(bb|aa)*c*d` is shown in an image with GraphvizOnline:
 https://dreampuf.github.io/GraphvizOnline/#digraph%20G%20%7B%0D%0Arankdir%3D%22LR%22%0D%0A%0911-%3E9%0D%0A%0911-%3E12%0D%0A%099-%3E1%0D%0A%099-%3E5%0D%0A%091-%3E2%20%5Blabel%3D%22b%22%5D%0D%0A%092-%3E3%0D%0A%093-%3E4%20%5Blabel%3D%22b%22%5D%0D%0A%094-%3E10%0D%0A%095-%3E6%20%5Blabel%3D%22a%22%5D%0D%0A%096-%3E7%0D%0A%097-%3E8%20%5Blabel%3D%22a%22%5D%0D%0A%098-%3E10%0D%0A%0910-%3E9%0D%0A%0910-%3E12%0D%0A%0912-%3E15%0D%0A%0915-%3E13%0D%0A%0915-%3E16%0D%0A%0913-%3E14%20%5Blabel%3D%22c%22%5D%0D%0A%0914-%3E13%0D%0A%0914-%3E16%0D%0A%0916-%3E17%0D%0A%0917-%3E18%20%5Blabel%3D%22d%22%5D%0D%0A%7D
